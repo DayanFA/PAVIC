@@ -1,0 +1,81 @@
+# Build directories
+build/
+build_cuda/
+build_*/
+out/
+Release/
+Debug/
+x64/
+x86/
+
+# Compiled files
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.ncb
+*.aps
+
+# CUDA compiled
+*.cubin
+*.fatbin
+*.ptx
+*.gpu
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+ipch/
+*.VC.db
+*.VC.VC.opendb
+CMakeSettings.json
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Output files
+output*.png
+output*.jpg
+output*.csv
+results/
+_temp.png
+
+# Logs
+*.log
+bench_out.txt
+bench_err.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependencies (user should install locally)
+# opencv_world*.dll - uncomment if you want to include DLLs
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
